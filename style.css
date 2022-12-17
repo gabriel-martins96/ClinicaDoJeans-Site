@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'blackgold';
+    src: url('fonte/blackgold.otf.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonte/Cormorant/static/Cormorant-Regular.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    --fonte-gold: 'blackgold', cursive;
+}
+:root{
+    --cordourado: #d9b569;
+}
+header > h1{
+    text-align: center;
+    font-family: 'blackgold';
+    font-size: 3em;
+    font-weight: bolder;
+    color: #213958;
+    padding: 20px;
+    margin: auto;
+      
+}
+header h2{
+    text-align: center;
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-size: 1.5em;
+    color: var(--cordourado);
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+header nav{
+    text-align: center;
+    padding-bottom: 50px;
+}
+header a{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(117, 116, 116);   
+}
+#dourado{
+    color: var(--cordourado);
+}
+a:hover{
+    color: var(--cordourado);
+}
+img {
+    display: inline-block;
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.102);    
+}
+footer{
+    background-color: #213958;
+}
